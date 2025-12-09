@@ -1,0 +1,2 @@
+![Location to Create and Format Disk Partitions](create_format_di%20skpart.png)
+In Windows 11, in order to create and format disk partitions, we must go to the control panel.
