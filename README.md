@@ -1,6 +1,28 @@
 # security-_fundamentals
 Dion Training Security+ labs showcasing threat detection, network defense, IAM, SIEM analysis, vulnerability assessment, and incident response skills. Built to demonstrate real-world analyst readiness.
 
+## Skills Learned / Tools Used
+### Skills Covered
+
+* Threat detection & analysis
+* Network security fundamentals
+* Identity & Access Management
+* SIEM log analysis
+* Incident response basics
+* Vulnerability scanning
+* Secure protocols & encryption
+
+### Tools Used
+* Wireshark
+* Splunk (or simulated SIEM)
+* Linux/Windows CLI
+* Nmap
+* Hashing/crypto tools
+* VM environments
+
+## How to Navigate or Use the Repo: 
+Each folder contains lab write-ups, screenshots, and summaries demonstrating how I applied Security+ concepts in hands-on exercises.
+
 ## Labs: 
 * Fundamental Security Concepts
 * Cryptographic Solutions
