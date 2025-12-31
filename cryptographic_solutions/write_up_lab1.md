@@ -1,14 +1,13 @@
 ## Overview
-The purpose of lab 1(Create and Verify a Digital Signature) is to verify the authenticity and integrity of digital documents, messages, and transactions. 
+The purpose of Lab 1 (Create and Verify a Digital Signature) is to demonstrate how digital signatures are used to verify the authenticity and integrity of digital documents, messages, and transactions.
 
-Brief Description of What You Did
+In this lab, public and private key pairs were generated, a digital signature was created using a private key, and the signature was verified using the corresponding public key. This process simulated a real-world scenario where one party signs data and another party verifies that the data has not been altered and that it came from the expected sender.
 
-Tools / Environment Used (High-Level)
-The lab was conducted using Alma Linux 9.1- a standalone Linux server. To create the public and private keys, the tool OpenSSL was used. 
+The lab was conducted using AlmaLinux 9.1 on a standalone Linux server. The OpenSSL cryptographic tool was used to generate RSA key pairs, create message digests, sign data, and verify digital signatures.
 
-Learning Objective / Skills Gained
+Through this lab, key skills were developed in public key cryptography, hashing, digital signature creation, and signature verification. The lab also reinforced an understanding of how private and public keys work together to provide security.
 
-Why This Lab Is Important (Real-World Relevance)
+This lab is important because digital signatures are widely used in real-world security applications such as secure email, software distribution, financial transactions, and authentication systems to ensure data integrity and verify identity.
 
 
 ## Steps Performed
@@ -30,8 +29,7 @@ This command creates a public key from the private key we created for Alice.
 
 ![Creating a Digest File](digest.png)
 
-The command creates a digest (a file) that is going to be hashed and encrypted by the private key I made earlier. This will be sent to Bob so he can hash the file as well and compare his result to the encrypted hash in the digital signature. 
-
+The command creates a digest file that is hashed, and the resulting hash is encrypted using Alice’s private key to form the digital signature.
 
 ![Create Digital Signature](digital_signature.png)
 This command creates Alice's digital signature by hashing the alice_digest.txt file and encrypting the hash output with alice_privatekey.pem. The resulting file (which is the signature file) is alice_signature.bin. 
